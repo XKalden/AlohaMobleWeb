@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Aloha Project">
+    <meta name="keywords" content="HTML,CSS">
+    <meta name="author" content="Tsering Kalden">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aloha Home Page</title>
+    <!-- reset css file not included cssS -->
+    <link href="./css/reset.csss" rel="stylesheet" type="text/css"> 
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/fonts/font.css">
+
+    <!-- Font  -->
+    <link rel="style.sheet" type="text/css" href="./assets/fonts/fontAwesome/font-awesome.css">
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/093a60d5ab.js"></script>
+   
+    <!-- Jquery -->
+    <script src="./src/library/jquery-3.2.1.js"></script>
+    <script src="./src/main.js"></script>
+
+    <!-- Flickity file (CDN) -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+    <link rel="stylesheet" href="./css/flickity.css">
+
+</head>
+
+<body>
+    <!-- LOGO && ICON && NAV (aka header .CSS)-->
+    <header id="first-gird">
+        <ul class="second-grid">
+            <li class="Logo">
+                <img class="Logo__Image" src="./assets/images/aloha-logo.svg" alt="logo image">
+            </li>
+            <li class="Icon">
+                <span id="spanCart"></span>
+                <img class="Icon__Image" src="./assets/images/cart-icon.svg" alt="icon image">
+            </li>
+            <li class="Line">
+                <hr>
+            </li>
+            <li class="Nav">
+                <!-- Navbar -->
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#message">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="#products">SHOP</a>
+                        </li>
+                        <li>
+                            <a href="#category">FEATURED</a>
+                        </li>
+                        <li>
+                            <a href="#submit">UPDATES</a>
+                        </li>
+                    </ul>
+                </nav>
+            </li>
+        </ul>
+    </header>
+
+    <!-- Image Background (aka Main Image .CSS)-->
+    <section class="image-background">
+        <div class="black-background"></div>
+        <div class="background-flower stretch">
+            <div class="banner-girl"></div>
+        </div>
+        <div class="text-center">
+            <h1>NEW COLLECTION</h1>
+            <p>Spring/Summer 2016</p>
+        </div>
+    </section>
+
+
+    <!-- Message (aka Message .CSS) -->
+    <section class="message" id="message">
+        <div class="message-center">
+            <h2>
+                <em>Hand-Crafted</em>
+                <strong>Styles</strong>
+            </h2>
+            <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browser our current section of products or
+                sign-up for updates below.
+            </p>
+        </div>
+    </section>
+
+    <!-- Category (aka Category .CSS) -->
+    <section class="category" id="category">
+        <div class="category-container">
+            <!-- Men Category -->
+            <div class="mens">
+                <div class="black">
+                    <div class="opacity-change">
+                        <div class="mens__black"></div>
+                        <div class="mens__img">
+                            <img class="men__image" src="./assets/images/mens-category.jpg" alt="men category">
+                        </div>
+                    </div>
+                </div>
+                <div class="category-text-center">
+                    <p>MEN'S</p>
+                </div>
+            </div>
+
+            <!-- Trends Category -->
+            <div class="trends">
+                <div class="black">
+                    <div class="opacity-change">
+                        <div class="mens__black"></div>
+                        <div class="mens__img">
+                            <img class="men__image" src="./assets/images/trends-category.jpg" alt="trend category">
+                        </div>
+                    </div>
+                </div>
+                <div class="category-text-center">
+                    <p>TRENDS</p>
+                </div>
+            </div>
+
+            <!-- Glasses Category -->
+            <div class="glasses">
+                <div class="black">
+                    <div class="opacity-change">
+                        <div class="mens__black"></div>
+                        <div class="mens__img">
+                            <img class="men__image" src="./assets/images/glasses-category.jpg" alt="glasses category">
+                        </div>
+                    </div>
+                </div>
+                <div class="category-text-center">
+                    <p>GLASSES</p>
+                </div>
+            </div>
+
+            <!-- Sales Category -->
+            <div class="sales">
+                <div class="black">
+                    <div class="opacity-change">
+                        <div class="mens__black"></div>
+                        <div class="mens__img">
+                            <img class="men__image" src="./assets/images/sale-category.jpg" alt="sale category">
+                        </div>
+                    </div>
+                </div>
+                <div class="category-text-center">
+                    <p>SALE</p>
+                </div>
+            </div>
+
+            <!-- Bags Category -->
+            <div class="bags">
+                <div class="black">
+                    <div class="opacity-change">
+                        <div class="mens__black"></div>
+                        <div class="mens__img">
+                            <img class="men__image" src="./assets/images/bags-category.jpg" alt="bags category">
+                        </div>
+                    </div>
+                </div>
+                <div class="category-text-center">
+                    <p>BAGS</p>
+                </div>
+            </div>
+
+            <!-- Womens Category -->
+            <div class="womens">
+                <div class="black">
+                    <div class="opacity-change">
+                        <div class="mens__black"></div>
+                        <div class="mens__img">
+                            <img class="men__image" src="./assets/images/womens-category.jpg" alt="women category">
+                        </div>
+                    </div>
+                </div>
+                <div class="category-text-center">
+                    <p>WOMEN'S</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products (aka Slide Show .CSS) -->
+    <section class="product" id="products">
+        <div class="center-h2">
+            <h2>
+                <em>Most-Loved</em>
+                <strong>Products</strong>
+            </h2>
+        </div>
+        <div class="main-carousel">
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/images/stretch-knit-dress.jpg" alt="Strech Knit Dress">
+                    <p>DRESSES</p>
+                    <p class="orange__p">Strech Knit Dress</p>
+                    <p>$169.00</p>
+                    <button class="addToCard" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirts">
+                    <p>SHIRTS</p>
+                    <p class="orange__p">Cotton Blue Shirts</p>
+                    <p>$89.00</p>
+                    <button class="addToCard" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/images/checked-stretch-dress.jpg" alt="Checked Strech Dress">
+                    <p>DRESSES</p>
+                    <p class="orange__p">Checked Strech Dress</p>
+                    <p>$129.00</p>
+                    <button class="addToCard" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/images/blue-hipster-backpack.jpg" alt="backpack">
+                    <p>BAGS</p>
+                    <p class="orange__p">Blue Hipster Backpack</p>
+                    <p>$69.00</p>
+                    <button class="addToCard" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/images/demin-overall-shorts.jpg" alt="Demin Overall Shorts">
+                    <p>DEMIN</p>
+                    <p class="orange__p">Demin Overall Shorts</p>
+                    <p>$89.00</p>
+                    <button class="addToCard" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/images/pink-dotted-dress.jpg" alt="Pink Dotted Dress">
+                    <p>DRESS</p>
+                    <p class="orange__p">Pink Dotted Dress</p>
+                    <p>$99.00</p>
+                    <button class="addToCard" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/images/cotton-yellow-tshirt.jpg" alt="Cotton Yellow Shirts">
+                    <p>SHIRTS</p>
+                    <p class="orange__p">Cotton Yellow Shirts</p>
+                    <p>$49.00</p>
+                    <button class="addToCard" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/images/blue-silk-dress.jpg" alt="Blue Silk Dress">
+                    <p>DRESS</p>
+                    <p class="orange__p">Blue Silk Dress</p>
+                    <p>$159.00</p>
+                    <button class="addToCard" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Post action (aka Form .CSS)-->
+    <form action="#first-grid" method="#" id="submit">
+        <div class="form-container">
+            <!-- Header -->
+            <div class="h2__grid">
+                <h2>
+                    <em>Sign-up for</em>
+                    <strong>Updates</strong>
+                </h2>
+            </div>
+            <!-- Paragraph -->
+            <div class="p__grid">
+                <p>Stay update on our latest product releases, be first to find out about upcomming sales, and get free style
+                    tips from our blog. Unsubscribe at any time.</p>
+            </div>
+            <!-- Button  -->
+            <div class="button__gird">
+                <div class="button-border">
+                        <!-- placeholder="Your Email" -->
+                    <input type="email" name="email"  required>
+                    <button id="submitButton">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Footer (aka Footer .CSS)-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer__grid">
+                <div class="brand">
+                    <h3>&copy 2016 Aloha Apparl Co.</h3>
+                    <p>Powered by HTML and CSS.</p>
+                    <p class="p__br">604-604-604. info@alohaapparel.com</p>
+                </div>
+                <div class="address">
+                    <p>1490 W Broadway</p>
+                    <p>Vancover, BC, Canada</p>
+                </div>
+            </div>
+
+
+            <div class="social-mobile">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.ca/">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.ca/">
+                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/">
+                            <i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/">
+                            <i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/">
+                            <i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.ca/">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i> Pinterest</a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.ca/">
+                            <i class="fa fa-google-plus" aria-hidden="true"></i> Google+</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+</html>
