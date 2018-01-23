@@ -6,9 +6,9 @@ The purpose of this project is to build a responsive website for Aloha Apparel C
 ## Desktop
 ![Aloha](alohaKalden.png)
 ## Tablet
-<img src="./aloha-tablet-600px.png" width="300">
+<img src="./aloha-tablet-600px.png" width="600">
 ## Mobile
-<img src="./aloha-mobile.png" width="100">
+<img src="./aloha-mobile.png" width="300">
 
 # Technologies Used
 * Visual Studio Code (https://code.visualstudio.com/download) 
