@@ -3,9 +3,12 @@
 # Project 1: Aloha Apparel Co.
 The purpose of this project is to build a responsive website for Aloha Apparel Co. using HTML and CSS components.
 
+## Desktop
 ![Aloha](alohaKalden.png)
-![Aloha](aloha-tablet-600px.png)
-![Aloha](aloha-mobile.png)
+## Tablet
+<img src="./aloha-tablet-600px.png" width="300">
+## Mobile
+<img src="./aloha-mobile.png" width="100">
 
 # Technologies Used
 * Visual Studio Code (https://code.visualstudio.com/download) 
