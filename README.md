@@ -3,12 +3,17 @@
 # Project 1: Aloha Apparel Co.
 The purpose of this project is to build a responsive website for Aloha Apparel Co. using HTML and CSS components.
 
+## Desktop
 ![Aloha](alohaKalden.png)
 
-Guidelines are based on the supplied design comps and design specs.
+## Tablet
+<img src="./aloha-tablet-600px.png" width="600">
+
+## Mobile
+<img src="./aloha-mobile.png" width="300">
 
 # Technologies Used
-* Atom (http://atom.io)
+* Visual Studio Code (https://code.visualstudio.com/download) 
 * Git Bash (https://git-for-windows.github.io/)
 * Google Chrome (https://www.google.com/chrome/)
 * Google Chrome Developer Tools
@@ -25,3 +30,4 @@ Guidelines are based on the supplied design comps and design specs.
 * JQuery Plugins (Flickity: http://flickity.metafizzy.co/)
 * Smooth Scrolling (https://css-tricks.com/snippets/jquery/smooth-scrolling/)
 * Grid Css (https://css-tricks.com/snippets/css/complete-guide-grid/)
+* Flexbox (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
