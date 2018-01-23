@@ -5,8 +5,10 @@ The purpose of this project is to build a responsive website for Aloha Apparel C
 
 ## Desktop
 ![Aloha](alohaKalden.png)
+
 ## Tablet
 <img src="./aloha-tablet-600px.png" width="600">
+
 ## Mobile
 <img src="./aloha-mobile.png" width="300">
 
@@ -28,3 +30,4 @@ The purpose of this project is to build a responsive website for Aloha Apparel C
 * JQuery Plugins (Flickity: http://flickity.metafizzy.co/)
 * Smooth Scrolling (https://css-tricks.com/snippets/jquery/smooth-scrolling/)
 * Grid Css (https://css-tricks.com/snippets/css/complete-guide-grid/)
+* Flexbox (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
