@@ -1,6 +1,4 @@
-# AlohaMobleWeb
-
-# Project 1: Aloha Apparel Co.
+# Project: Aloha Apparel Co.
 The purpose of this project is to build a responsive website for Aloha Apparel Co. using HTML and CSS components.
 
 ## Desktop
